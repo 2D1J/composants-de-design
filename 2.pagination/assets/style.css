@@ -1,0 +1,53 @@
+html{
+    max-height: 200px;
+}
+
+section{
+    background-color: #dddddd;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #B1ADA6;
+}
+
+nav{
+    width: 760px;
+    height: 90px;
+    background-color: #F8F3E9;
+    border: 1px black solid;
+    margin: auto;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    display: inline-block;
+    height: auto;
+    width: auto;
+    margin: 5px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    color: black;
+}
+
+.other{
+    background-color: #3C444E;
+    color: white;
+}
+.other:hover{
+    background-color: #3AA1E7;
+}
+
+#selected{
+    color: black;
+}
